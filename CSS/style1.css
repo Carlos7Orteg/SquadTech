@@ -23,20 +23,27 @@ body {
 }
 
 .navbar-nav {
-    border-radius:7px;
+    border-radius:5px;
     width: 40%;
 
 }
 
 .navbar-nav .nav-item .nav-link {
     text-decoration:dashed;
-    font-size: 22px;
+    font-size: 24px;
     background: #3C87F0;
+    color:#ffffff;
+    text-shadow: 
+    -2px -2px 1px rgba(0, 0, 0, 0.2), /* Primera sombra negra suave hacia arriba e izquierda */
+    -1px -1px 1px rgba(0, 0, 0, 0.3), /* Segunda sombra negra un poco más intensa */
+    2px 2px 2px rgba(255, 255, 255, 0.7), /* Sombra blanca para el brillo */
+    4px 4px 4px rgba(0, 0, 0, 0.2), /* Sombra negra más grande para un efecto de profundidad */
+    6px 6px 6px rgba(0, 0, 0, 0.1); /* Última sombra negra más difusa */
     transition: background-color 0.3s ease;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #ffffff;
+    color: #a5ecdbee;
     background-color: #706d6d49;
     border-radius: 5px;
 
