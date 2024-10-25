@@ -1,0 +1,91 @@
+* {
+    margin:0 auto;
+    padding: 0;
+}
+
+/* Estilos personalizados opcionales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3eeeeac;
+}
+
+.navbar {
+    background-color: #3c87f0;
+}
+
+.navbar-brand {
+    width: 120px;
+    height: 120px;
+    padding: 0;
+    margin: 0;
+    border-radius: 70px;
+}
+
+.navbar-nav {
+    border-radius:7px;
+    width: 40%;
+
+}
+
+.navbar-nav .nav-item .nav-link {
+    text-decoration:dashed;
+    font-size: 22px;
+    background: #3C87F0;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ffffff;
+    background-color: #706d6d49;
+    border-radius: 5px;
+
+}
+
+/*Section nosotros*/
+
+.normal {
+    background-color: #cdddc5;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Section Sección 2*/
+
+.seccion2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #cdddc5;
+}
+
+/*Section nosotros2*/
+.somos {
+    display:inline-flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.n {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.n .nosotros {
+    width: 500px;
+    height: 300px;
+}
+
+
+
+/*Footer*/
+
+.footer {
+    background-color: #3cbdf0;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
