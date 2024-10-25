@@ -79,10 +79,20 @@ body {
     height: 300px;
 }
 
+/*Section contacto*/
+
+.info{
+    text-align: center;
+}
+
+.contacto{
+    text-align: center;
+}
+
 /*Footer*/
 
 .footer {
-    background-color: #3cbdf0;
+    background-color: #3c87f0;
     color: #ffffff;
     padding: 20px;
     text-align: center;

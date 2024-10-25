@@ -1,5 +1,5 @@
 * {
-    margin:0 auto;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -41,22 +41,12 @@ body {
 
 }
 
-/*Section principal*/
-
-.principal {
-    display: flex;
+/*Section Servicio*/
+.servicios {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-/*Section Normal*/
-
-.normal {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    display:flex;
 }
 
 /*Section nosotros2*/
@@ -79,20 +69,18 @@ body {
     height: 300px;
 }
 
-/*Section contacto*/
+/*Section Servicio*/
 
-.info{
+.servicio{
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-
-.contacto{
-    text-align: center;
-}
-
 /*Footer*/
 
 .footer {
-    background-color: #3cbdf0;
+    background-color: #3c87f0;
     color: #ffffff;
     padding: 20px;
     text-align: center;

@@ -9,8 +9,6 @@ body {
     background-color: #f3eeeeac;
 }
 
-/*Header*/
-
 .navbar {
     background-color: #3c87f0;
 }
@@ -43,20 +41,21 @@ body {
 
 }
 
-/*Section Inicio*/
+/*Section principal*/
+
 .principal {
+    display: flex;
     justify-content: center;
     align-items: center;
-    display:flex;
+    text-align: center;
 }
 
-.banner{
+/*Section Normal*/
 
-}
-
-/*nosotros*/
 .normal {
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -83,11 +82,8 @@ body {
 /*Footer*/
 
 .footer {
-    background-color: #3cbdf0;
+    background-color: #3c87f0;
     color: #ffffff;
     padding: 20px;
     text-align: center;
 }
-
-
-

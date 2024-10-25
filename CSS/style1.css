@@ -1,5 +1,5 @@
 * {
-    margin: 0 auto;
+    margin:0 auto;
     padding: 0;
 }
 
@@ -8,6 +8,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f3eeeeac;
 }
+
+/*Header*/
 
 .navbar {
     background-color: #3c87f0;
@@ -18,7 +20,7 @@ body {
     height: 120px;
     padding: 0;
     margin: 0;
-    border-radius: 70px;
+    border-radius: 100px;
 }
 
 .navbar-nav {
@@ -41,12 +43,19 @@ body {
 
 }
 
-/*Section Servicio*/
-.servicios {
-    justify-content: center;
-    align-items: center;
+/*Section Inicio*/
+.principal {
+    display: flex;
+}
+
+.banner{
     text-align: center;
-    display:flex;
+}
+
+/*nosotros*/
+.normal {
+    padding: 10px;
+    text-align: center;
 }
 
 /*Section nosotros2*/
@@ -69,19 +78,14 @@ body {
     height: 300px;
 }
 
-/*Section Servicio*/
-
-.servicio{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
 /*Footer*/
 
 .footer {
-    background-color: #3cbdf0;
+    background-color: #3c87f0;
     color: #ffffff;
     padding: 20px;
     text-align: center;
 }
+
+
+
